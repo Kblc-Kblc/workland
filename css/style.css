@@ -2108,6 +2108,11 @@ body.ie ._ibg img {
     right: -10%;
   }
 
+  .arr-prev {
+    left: 0;
+    top: 30%;
+  }
+
   .header__content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2511,6 +2516,7 @@ body.ie ._ibg img {
 @media (max-width: 1168px) {
   .arr-next {
     right: -5%;
+    top: 30%;
   }
 
   .arr-prev {
