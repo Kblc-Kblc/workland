@@ -63,7 +63,7 @@ if (location.hash) {
 let iconMenu = document.querySelector(".icon-menu");
 if (iconMenu != null) {
 	let delay = 500;
-	let menuBody = document.querySelector(".menu__body");
+	let menuBody = document.querySelector(".header-nav");
 	iconMenu.addEventListener("click", function (e) {
 		if (unlock) {
 			body_lock(delay);
@@ -1561,12 +1561,11 @@ let slider_about = new Swiper('.slider-body', {
 		nextEl: '.arr-next',
 		prevEl: '.arr-prev ',
 	},
-	/*
 	breakpoints: {
 		320: {
 			slidesPerView: 1,
 			spaceBetween: 0,
-			autoHeight: true,
+			// autoHeight: true,
 		},
 		768: {
 			slidesPerView: 2,
@@ -1581,7 +1580,7 @@ let slider_about = new Swiper('.slider-body', {
 			spaceBetween: 30,
 		},
 	},
-	*/
+
 	on: {
 		lazyImageReady: function () {
 			ibg();
