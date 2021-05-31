@@ -1212,6 +1212,9 @@ body.ie ._ibg img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .header-nav__list li:nth-child(5) {
@@ -1221,6 +1224,11 @@ body.ie ._ibg img {
 .header-nav__list li:nth-child(6) {
   padding: 0px 20px 0px 0px;
   margin: -5px 0px 0px 0px;
+}
+
+.header-nav__list li:nth-child(6) img {
+  width: 40px;
+  height: 40px;
 }
 
 .header-nav__list li:last-child {
@@ -1236,6 +1244,16 @@ body.ie ._ibg img {
   line-height: 24px;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+.header-icon--vk {
+  width: 40px;
+  height: 40px;
+}
+
+.header-icon--inst {
+  width: 40px;
+  height: 40px;
 }
 
 .icon-menu {
