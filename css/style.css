@@ -533,14 +533,14 @@ textarea.input {
 .arr-next {
   position: absolute;
   right: 0;
-  top: 15%;
+  top: 30%;
   cursor: pointer;
 }
 
 .arr-prev {
   position: absolute;
   left: 0;
-  top: 15%;
+  top: 30%;
   cursor: pointer;
 }
 
@@ -2106,6 +2106,7 @@ body.ie ._ibg img {
 
   .arr-next {
     right: -10%;
+    top: 30%;
   }
 
   .arr-prev {
