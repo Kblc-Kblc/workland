@@ -130,7 +130,7 @@ body._lock {
 }
 
 ._container {
-  max-width: 1596px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -518,14 +518,14 @@ textarea.input {
 
 .arrow__next {
   position: absolute;
-  right: 0;
+  right: -16%;
   top: 60%;
   cursor: pointer;
 }
 
 .arrow__prev {
   position: absolute;
-  left: 51%;
+  left: 56%;
   top: 60%;
   cursor: pointer;
 }
@@ -1208,6 +1208,11 @@ body.ie ._ibg img {
   padding: 20px 0px 75px 0px;
 }
 
+.logo-header img {
+  width: 320px;
+  height: 160px;
+}
+
 .header-nav__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1374,7 +1379,7 @@ body.ie ._ibg img {
 
 .prev-items__dog {
   position: absolute;
-  right: -5%;
+  right: -10%;
   top: 0;
 }
 
@@ -2093,7 +2098,7 @@ body.ie ._ibg img {
   }
 }
 
-@media (max-width: 1608px) {
+@media (max-width: 1412px) {
   .wrapper {
     background-color: #aae2ff;
   }
@@ -2164,7 +2169,7 @@ body.ie ._ibg img {
   }
 
   .header-nav__list li {
-    padding: 0px 0px 30px 0px;
+    padding: 0px 0px 10px 0px;
     cursor: pointer;
   }
 
@@ -2516,7 +2521,7 @@ body.ie ._ibg img {
   }
 }
 
-@media (max-width: 1608px) and (max-width: 767.98px) {
+@media (max-width: 1412px) and (max-width: 767.98px) {
   .guests__columns {
     padding: 0px 0px 70px 0px;
   }
