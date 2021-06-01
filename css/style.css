@@ -2210,6 +2210,12 @@ body.ie ._ibg img {
   }
 }
 
+@media (max-width: 1360px) {
+  .map__content {
+    padding: 700px 0px 0px 0px;
+  }
+}
+
 @media (max-width: 1312px) {
   .wrapper {
     background-color: #aae2ff;
