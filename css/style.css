@@ -3253,8 +3253,13 @@ body.ie ._ibg img {
     height: 160px;
   }
 
+  .test-wrapper {
+    height: 300px;
+  }
+
   .slider__slide img {
     max-width: 217px;
+    height: 200px;
   }
 
   .map {
