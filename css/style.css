@@ -1818,6 +1818,10 @@ body.ie ._ibg img {
   left: 25.5%;
 }
 
+.guests .guests__mob-icon {
+  display: none;
+}
+
 .guests__abs--right {
   position: absolute;
   bottom: 60%;
@@ -3341,7 +3345,7 @@ body.ie ._ibg img {
 
   .guests__abs--mid {
     bottom: 33%;
-    left: 0;
+    left: 70%;
   }
 
   .guests__abs--mid img {
@@ -3349,9 +3353,17 @@ body.ie ._ibg img {
     height: 93px;
   }
 
+  .guests .guests__desk-icon {
+    display: none;
+  }
+
+  .guests .guests__mob-icon {
+    display: block;
+  }
+
   .guests__abs--right {
     bottom: 60%;
-    right: 5%;
+    right: 60%;
   }
 
   .guests__abs--right img {
