@@ -127,6 +127,7 @@ body._lock {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background-color: #aae2ff;
 }
 
 ._container {
@@ -1602,24 +1603,26 @@ body.ie ._ibg img {
 }
 
 .map {
-  height: 1500px;
+  height: 1086px;
+  position: relative;
+}
+
+.map img {
   min-height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .map__content {
   position: relative;
-  padding: 600px 0px 0px 0px;
-}
-
-.map__title {
-  max-width: 491px;
+  padding: 770px 0px 0px 0px;
 }
 
 .map__title h4 {
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
-  line-height: 85px;
+  line-height: 68px;
   text-transform: uppercase;
   color: #303030;
 }
@@ -1630,23 +1633,23 @@ body.ie ._ibg img {
 }
 
 .map__img img {
-  top: 57%;
-  left: -2%;
-  width: 490px;
-  height: 296px;
+  top: 20%;
+  left: 36%;
+  width: 300px;
+  height: 261px;
   -o-object-fit: contain;
      object-fit: contain;
 }
 
 .map__text {
-  max-width: 419px;
+  max-width: 478px;
   padding: 0px 0px 40px 0px;
 }
 
 .map__text p {
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 24px;
   color: #303030;
 }
@@ -2363,22 +2366,21 @@ body.ie ._ibg img {
   }
 
   .map {
-    margin: 600px 0px -80px 0px;
-  }
-
-  .map img {
-    width: 100%;
-    -o-object-fit: contain;
-       object-fit: contain;
+    margin: 0px 0px 300px 0px;
   }
 
   .map__content {
+    width: 600px;
     position: absolute;
-    top: -25%;
+    top: 45%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
+  }
+
+  .map__title {
+    padding: 0px 0px 1000px 0px;
   }
 
   .map__title h4 {
@@ -2388,8 +2390,8 @@ body.ie ._ibg img {
   .map__img img {
     width: 390px;
     height: 296px;
-    top: 58%;
-    left: 8%;
+    top: 23%;
+    left: 20%;
   }
 
   .map__text {
@@ -2402,15 +2404,6 @@ body.ie ._ibg img {
 
   .map__btn {
     text-align: center;
-  }
-
-  .regulations {
-    margin: -400px 0px 0px 0px;
-    padding: 0px 0px 80px 0px;
-  }
-
-  .regulations__content {
-    padding: 190px 0px 0px 0px;
   }
 
   .regulations__subtitle {
@@ -2732,20 +2725,8 @@ body.ie ._ibg img {
     padding: 300px 0px 40px 0px;
   }
 
-  .map {
-    margin: 400px 0px -80px 0px;
-  }
-
   .map__content {
-    top: -15%;
-  }
-
-  .regulations {
-    margin: -450px 0px 0px 0px;
-  }
-
-  .regulations__content {
-    padding: 100px 0px 0px 0px;
+    top: 45%;
   }
 
   .regulations__subtitle {
@@ -3044,6 +3025,9 @@ body.ie ._ibg img {
     padding: 0px 0px 0px 0px;
   }
 
+  ._no-webp .bg-wrapper{
+    background: url("../img/bg.png") center no-repeat; }
+
   .prev-mob__img {
     display: block;
     height: 125px;
@@ -3262,14 +3246,13 @@ body.ie ._ibg img {
     height: 200px;
   }
 
-  .map {
-    margin: 150px 0px -120px 0px;
+  .map__content {
+    top: 75%;
+    left: 50%;
   }
 
-  .map__content {
-    padding: 600px 0px 0px 0px;
-    top: 3%;
-    left: 50%;
+  .map__title {
+    padding: 0px 0px 700px 0px;
   }
 
   .map__title h4 {
@@ -3285,27 +3268,18 @@ body.ie ._ibg img {
   .map__img img {
     height: 186px;
     width: 304px;
-    top: 60%;
-    left: 5%;
+    top: 6%;
+    left: 25%;
   }
 
   .map__text {
-    max-width: 280px;
+    max-width: 240px;
     padding: 30px 0px 40px 0px;
   }
 
   .map__text p {
     font-size: 12px;
     line-height: 18px;
-  }
-
-  .regulations {
-    margin: -550px 0px 0px 0px;
-    padding: 0px 0px 45px 0px;
-  }
-
-  .regulations__content {
-    padding: 120px 0px 0px 0px;
   }
 
   .regulations__title {
@@ -3583,20 +3557,7 @@ body.ie ._ibg img {
   }
 }
 
-@media (max-width: 600px) {
-  .regulations__content {
-    padding: 70px 0px 0px 0px;
-  }
-}
+@media (max-width: 767.98px){
 
-@media (max-width: 479.98px) {
-  .regulations__content {
-    padding: 30px 0px 0px 0px;
-  }
-}
-
-@media (max-width: 340px) {
-  .regulations__content {
-    padding: 10px 0px 0px 0px;
-  }
+  ._webp .bg-wrapper{ background: url(../img/bg.webp) center no-repeat; }
 }
