@@ -1359,13 +1359,13 @@ body.ie ._ibg img {
 .prev-items__peace {
   position: absolute;
   left: 10%;
-  top: 18%;
+  top: 25%;
 }
 
 .prev-items__blue {
   position: absolute;
-  left: 0;
-  top: 40%;
+  left: -10%;
+  top: 60%;
 }
 
 .prev-items__orange--mob {
@@ -1415,6 +1415,24 @@ body.ie ._ibg img {
   line-height: 32px;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+.info-about-abs__orange-big {
+  position: absolute;
+  left: 2%;
+  bottom: 0;
+}
+
+.info-about-abs__orange-mid {
+  position: absolute;
+  right: 0;
+  top: 35%;
+}
+
+.info-about-abs__orange-lit {
+  position: absolute;
+  left: -5%;
+  bottom: 20%;
 }
 
 .about {
@@ -1596,6 +1614,7 @@ body.ie ._ibg img {
   position: absolute;
   left: 6%;
   top: 56%;
+  display: none;
 }
 
 .bg-flower__big {
@@ -3180,6 +3199,18 @@ body.ie ._ibg img {
 
   .btn-prev__link {
     padding: 21px 22px;
+  }
+
+  .info-about-abs__orange-big {
+    display: none;
+  }
+
+  .info-about-abs__orange-mid {
+    display: none;
+  }
+
+  .info-about-abs__orange-lit {
+    display: none;
   }
 
   .about {
